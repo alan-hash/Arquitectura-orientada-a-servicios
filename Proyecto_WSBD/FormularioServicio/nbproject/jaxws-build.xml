@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+        *** GENERATED FROM jax-ws.xml - DO NOT EDIT !                             ***
+        *** TO MODIFY wsimport options USE Web Service node -> Edit WS Attributes ***
+        *** TO CHANGE TARGETS GENERATED TO jaxws-build.xml COPY THOSE             ***
+        *** TARGETS TO ../build.xml AND MODIFY THAT FILE INSTEAD                  ***
+
+        --><project xmlns:xalan="http://xml.apache.org/xslt" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxws="http://www.netbeans.org/ns/jax-ws/1">
+    <!--
+                ===================
+                JAX-WS WSIMPORT SECTION
+                ===================
+            -->
+    <target name="wsimport-init" depends="init">
+        <mkdir dir="${build.generated.sources.dir}/jax-ws"/>
+        <taskdef name="wsimport" classname="com.sun.tools.ws.ant.WsImport">
+            <classpath path="${libs.jaxws21.classpath}"/>
+        </taskdef>
+    </target>
+    <target name="wsimport-client-WSBDatos" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/WSBDatos"/>
+        <property name="wsdl-WSBDatos" location="xml-resources/web-service-references/WSBDatos/wsdl/localhost_21107/Servicoprueba/WSBDatos.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WSBDatos" destdir="${build.generated.dir}/jax-wsCache/WSBDatos" wsdl="${wsdl-WSBDatos}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:21107/Servicoprueba/WSBDatos?WSDL" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-WSBDatos}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/WSBDatos"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/WSBDatos">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-WSBDatos" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/WSBDatos"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/pkgservicio"/>
+    </target>
+    <target name="wsimport-client-WSBDatos_1" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/WSBDatos_1"/>
+        <property name="wsdl-WSBDatos_1" location="xml-resources/web-service-references/WSBDatos_1/wsdl/localhost_21107/Servicoprueba/WSBDatos.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WSBDatos_1" destdir="${build.generated.dir}/jax-wsCache/WSBDatos_1" wsdl="${wsdl-WSBDatos_1}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:21107/Servicoprueba/WSBDatos?WSDL" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-WSBDatos_1}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/WSBDatos_1"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/WSBDatos_1">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-WSBDatos_1" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/WSBDatos_1"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/pkgservicio"/>
+    </target>
+    <target name="wsimport-client-WSBDatos_2" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/WSBDatos_2"/>
+        <property name="wsdl-WSBDatos_2" location="xml-resources/web-service-references/WSBDatos_2/wsdl/localhost_21107/Servicoprueba/WSBDatos.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WSBDatos_2" destdir="${build.generated.dir}/jax-wsCache/WSBDatos_2" wsdl="${wsdl-WSBDatos_2}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:21107/Servicoprueba/WSBDatos?WSDL" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-WSBDatos_2}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/WSBDatos_2"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/WSBDatos_2">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-WSBDatos_2" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/WSBDatos_2"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/pkgservicio"/>
+    </target>
+    <target name="wsimport-client-WSBDatos_3" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/WSBDatos_3"/>
+        <property name="wsdl-WSBDatos_3" location="xml-resources/web-service-references/WSBDatos_3/wsdl/localhost_21107/Servicoprueba/WSBDatos.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WSBDatos_3" destdir="${build.generated.dir}/jax-wsCache/WSBDatos_3" wsdl="${wsdl-WSBDatos_3}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:21107/Servicoprueba/WSBDatos?WSDL" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-WSBDatos_3}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/WSBDatos_3"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/WSBDatos_3">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-WSBDatos_3" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/WSBDatos_3"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/pkgservicio"/>
+    </target>
+    <target name="wsimport-client-WSBDatos_4" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/WSBDatos_4"/>
+        <property name="wsdl-WSBDatos_4" location="xml-resources/web-service-references/WSBDatos_4/wsdl/localhost_21107/Servicoprueba/WSBDatos.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WSBDatos_4" destdir="${build.generated.dir}/jax-wsCache/WSBDatos_4" wsdl="${wsdl-WSBDatos_4}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:21107/Servicoprueba/WSBDatos?WSDL" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-WSBDatos_4}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/WSBDatos_4"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/WSBDatos_4">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-WSBDatos_4" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/WSBDatos_4"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/pkgservicio"/>
+    </target>
+    <target name="wsimport-client-WSBDatos_5" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/WSBDatos_5"/>
+        <property name="wsdl-WSBDatos_5" location="xml-resources/web-service-references/WSBDatos_5/wsdl/localhost_21107/Servicoprueba/WSBDatos.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WSBDatos_5" destdir="${build.generated.dir}/jax-wsCache/WSBDatos_5" wsdl="${wsdl-WSBDatos_5}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:21107/Servicoprueba/WSBDatos?WSDL" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-WSBDatos_5}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/WSBDatos_5"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/WSBDatos_5">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-WSBDatos_5" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/WSBDatos_5"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/pkgservicio"/>
+    </target>
+    <target name="wsimport-client-WSBDatos_6" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/WSBDatos_6"/>
+        <property name="wsdl-WSBDatos_6" location="xml-resources/web-service-references/WSBDatos_6/wsdl/localhost_21107/Servicoprueba/WSBDatos.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WSBDatos_6" destdir="${build.generated.dir}/jax-wsCache/WSBDatos_6" wsdl="${wsdl-WSBDatos_6}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:21107/Servicoprueba/WSBDatos?WSDL" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-WSBDatos_6}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/WSBDatos_6"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/WSBDatos_6">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-WSBDatos_6" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/WSBDatos_6"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/pkgservicio"/>
+    </target>
+    <target name="wsimport-client-WSBDatos_7" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/WSBDatos_7"/>
+        <property name="wsdl-WSBDatos_7" location="xml-resources/web-service-references/WSBDatos_7/wsdl/localhost_21107/Servicoprueba/WSBDatos.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WSBDatos_7" destdir="${build.generated.dir}/jax-wsCache/WSBDatos_7" wsdl="${wsdl-WSBDatos_7}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:21107/Servicoprueba/WSBDatos?WSDL" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-WSBDatos_7}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/WSBDatos_7"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/WSBDatos_7">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-WSBDatos_7" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/WSBDatos_7"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/pkgservicio"/>
+    </target>
+    <target name="wsimport-client-WSBDatos_8" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/WSBDatos_8"/>
+        <property name="wsdl-WSBDatos_8" location="xml-resources/web-service-references/WSBDatos_8/wsdl/localhost_21107/Servicoprueba/WSBDatos.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WSBDatos_8" destdir="${build.generated.dir}/jax-wsCache/WSBDatos_8" wsdl="${wsdl-WSBDatos_8}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:21107/Servicoprueba/WSBDatos?WSDL" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-WSBDatos_8}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/WSBDatos_8"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/WSBDatos_8">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-WSBDatos_8" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/WSBDatos_8"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/pkgservicio"/>
+    </target>
+    <target name="wsimport-client-WSBDatos_9" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/WSBDatos_9"/>
+        <property name="wsdl-WSBDatos_9" location="xml-resources/web-service-references/WSBDatos_9/wsdl/localhost_21107/Servicoprueba/WSBDatos.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WSBDatos_9" destdir="${build.generated.dir}/jax-wsCache/WSBDatos_9" wsdl="${wsdl-WSBDatos_9}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:21107/Servicoprueba/WSBDatos?WSDL" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-WSBDatos_9}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/WSBDatos_9"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/WSBDatos_9">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-WSBDatos_9" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/WSBDatos_9"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/pkgservicio"/>
+    </target>
+    <target name="wsimport-client-WSBDatos_10" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/WSBDatos_10"/>
+        <property name="wsdl-WSBDatos_10" location="xml-resources/web-service-references/WSBDatos_10/wsdl/localhost_21107/Servicoprueba/WSBDatos.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WSBDatos_10" destdir="${build.generated.dir}/jax-wsCache/WSBDatos_10" wsdl="${wsdl-WSBDatos_10}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:21107/Servicoprueba/WSBDatos?WSDL" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-WSBDatos_10}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/WSBDatos_10"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/WSBDatos_10">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-WSBDatos_10" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/WSBDatos_10"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/pkgservicio"/>
+    </target>
+    <target name="wsimport-client-WSBDatos_11" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/WSBDatos_11"/>
+        <property name="wsdl-WSBDatos_11" location="xml-resources/web-service-references/WSBDatos_11/wsdl/localhost_21107/Servicoprueba/WSBDatos.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WSBDatos_11" destdir="${build.generated.dir}/jax-wsCache/WSBDatos_11" wsdl="${wsdl-WSBDatos_11}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:21107/Servicoprueba/WSBDatos?WSDL" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-WSBDatos_11}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/WSBDatos_11"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/WSBDatos_11">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-WSBDatos_11" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/WSBDatos_11"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/pkgservicio"/>
+    </target>
+    <target name="wsimport-client-WSBDatos_12" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/WSBDatos_12"/>
+        <property name="wsdl-WSBDatos_12" location="xml-resources/web-service-references/WSBDatos_12/wsdl/localhost_21107/Servicoprueba/WSBDatos.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WSBDatos_12" destdir="${build.generated.dir}/jax-wsCache/WSBDatos_12" wsdl="${wsdl-WSBDatos_12}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:21107/Servicoprueba/WSBDatos?WSDL" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-WSBDatos_12}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/WSBDatos_12"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/WSBDatos_12">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-WSBDatos_12" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/WSBDatos_12"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/pkgservicio"/>
+    </target>
+    <target name="wsimport-client-generate" depends="wsimport-client-WSBDatos, wsimport-client-WSBDatos_1, wsimport-client-WSBDatos_2, wsimport-client-WSBDatos_3, wsimport-client-WSBDatos_4, wsimport-client-WSBDatos_5, wsimport-client-WSBDatos_6, wsimport-client-WSBDatos_7, wsimport-client-WSBDatos_8, wsimport-client-WSBDatos_9, wsimport-client-WSBDatos_10, wsimport-client-WSBDatos_11, wsimport-client-WSBDatos_12"/>
+</project>
